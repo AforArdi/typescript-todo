@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Todo App
 
-## Getting Started
+A simple Todo application built with **Next.js**, **React**, **TypeScript**, and **HeroUI**.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Add new todos
+* Mark todos as completed
+* Delete todos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About This Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project was built as my first hands-on introduction to TypeScript. Since I was new to the language, I occasionally used AI as a learning tool to explain concepts, TypeScript syntax, and React patterns.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Rather than copying code directly, I made sure to understand what each piece of code did before adding it to the project. Whenever AI suggested a solution, I broke it down, learned how it worked, and only then implemented it.
 
-## Learn More
+The goal of this project wasn't just to build a Todo app, but to develop a solid understanding of TypeScript, React state management, and immutable updates while building something practical.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Next.js
+* React
+* TypeScript
+* HeroUI
+* Tailwind CSS
