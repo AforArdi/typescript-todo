@@ -58,13 +58,13 @@ export default function Home() {
       <ol className="flex flex-col gap-2">
         {todos.map((todo) => (
           <li className="flex items-center justify-between" key={todo.id}>
-            <div>
-              <Button onClick={() => toggleTodo(todo.id)}>
+            <div className="my-4">
+              <button onClick={() => toggleTodo(todo.id)}>
                 {todo.isDone ? "✓" : "☐"}
-              </Button>
+              </button>
               {todo.isDone ? <del>{todo.title}</del> : <span>{todo.title}</span>}
             </div>
-            <Button onClick={() => deleteTodo(todo.id)}>Delete</Button>
+            <Button variant='danger' onClick={() => deleteTodo(todo.id)}>Delete</Button>
           </li>
         ))}
       </ol>
